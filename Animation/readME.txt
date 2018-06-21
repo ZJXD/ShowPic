@@ -12,4 +12,5 @@ list.html 根据鼠标落的区域，显示对应的图片
 clearTimeout(movement);
 
 但是在调用的时候，movement 设置为全局变量（还没有设置 movement 在清除报错）、
-局部变量（这样在 clearTmeout 上下文不存在）
+局部变量（这样在 clearTmeout 上下文不存在）,
+所以就利用元素的属性，来存放这个值
