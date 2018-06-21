@@ -34,6 +34,6 @@ th,td {
 tr:nth-child(odd) {background-color: #ffc;}
 tr:nth-child(even) {background-color:#fff;}
 
-/* tr:hover {
+tr:hover {
     font-weight:bold;
-} */
+}
