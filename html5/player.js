@@ -8,10 +8,10 @@ function createVideoControls() {
 function addControls(vid) {
     // vid.removeAttribute("controls");
 
-    vid.height = vid.videoHeight/2;
-    vid.width = vid.videoWidth/2;
-    vid.parentNode.style.height = vid.height + "px";
-    vid.parentNode.style.width = vid.width + "px";
+    // vid.height = vid.videoHeight/2;
+    // vid.width = vid.videoWidth/2;
+    // vid.parentNode.style.height = vid.height + "px";
+    // vid.parentNode.style.width = vid.width + "px";
 
     // var controls = document.createElement("div");
     // controls.setAttribute("class","controls");
