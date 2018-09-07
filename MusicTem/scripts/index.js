@@ -1,5 +1,4 @@
 
-
 function moveElement(elementID, final_x, final_y, interval) {
     var elem = document.getElementById(elementID);
     // 元素中是否有 movement 属性

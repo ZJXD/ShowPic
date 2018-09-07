@@ -77,3 +77,25 @@ header nav a.here:active {
     color: #eef;
     background-color: #799;
 }
+
+th {
+    color: #edc;
+    background-color: #455;
+}
+
+/* CSS3 设置奇偶行样式 */
+tr:nth-child(odd) {color: #223;background-color: #eb6;}
+tr:nth-child(even) {color: #223;background-color:#ec8;}
+/* tr td {
+    color: #223;
+    background-color: #eb6;
+}
+
+tr.odd td {
+    color: #233;
+    background-color: #ec8;
+} */
+tr.highlight td {
+    color: #223;
+    background-color: #cba;
+}
